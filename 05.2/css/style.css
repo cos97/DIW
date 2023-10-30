@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+.title__container {
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+}
+.nav__container {
+  background-color: #3498db;
+  padding: 10px;
+}
+.nav__container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav__container ul li a {
+  text-decoration: none;
+  color: white;
+}
+.main__container {
+  padding: 20px;
+}
+.main__container .seccion {
+  display: flex;
+  margin-bottom: 20px;
+}
+.main__container .seccion__article {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+.main__container .seccion__article p {
+  margin-bottom: 10px;
+}
+.footer__container {
+  background-color: #3498db;
+  padding: 10px;
+}
+.footer__container ul {
+  list-style: none;
+  padding: 20px;
+  text-align: left;
+}
+.footer__container ul li a {
+  text-decoration: none;
+  color: white;
+}
+.boton-primario {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-primario:hover {
+  background-color: #217dbb;
+}
+.boton-secundario {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boton-secundario:hover {
+  background-color: #d62c1a;
+}

@@ -1,0 +1,85 @@
+// Variables
+@color-primario: #3498db;
+@color-secundario: #e74c3c;
+
+// Mixin para botones
+.boton(@color) {
+  background-color: @color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: darken(@color, 10%);
+  }
+}
+
+// Estilos generales
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title__container {
+  background-color: @color-primario;
+  padding: 20px;
+  color: white;
+}
+
+.nav__container {
+  background-color: @color-primario;
+  padding: 10px;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+.main__container {
+  padding: 20px;
+  .seccion {
+    display: flex;
+    margin-bottom: 20px;
+    &__article {
+      flex: 1;
+      padding: 20px;
+      border-radius: 10px;
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+.footer__container {
+  background-color: @color-primario;
+  padding: 10px;
+  ul {
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+// Aplicar mixin a botones
+.boton-primario {
+  .boton(@color-primario);
+}
+
+.boton-secundario {
+  .boton(@color-secundario);
+}

@@ -1,0 +1,30 @@
+body {
+	color: black;
+	font-size: 12pt;
+	font-family: Arial;
+}
+
+h1 {
+	color: blue;
+	font-size: 60px;
+}
+
+img {
+	height: 120px;
+}
+li {
+	text-align: left;
+}
+
+a {
+	font-style: italic;
+	color: gray;
+}
+
+a:visited {
+	color: red;
+	font-weight: 900;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
+/* Mejor reestructurar todo para hacerlo en vez de con lista con grid layout */

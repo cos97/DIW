@@ -1,0 +1,6 @@
+
+*Color*		*Decimal*		*Hexadecimal*
+Magenta:	255,0,255		#FF00FF
+Purple:		81,0,93			#51005D
+White:		255,255,255		#FFFFFF
+Black:		0,0,0			#000000

@@ -1,0 +1,119 @@
+// Estilos generales
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .title__container {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .nav__container {
+    background-color: #fff;
+    padding: 10px;
+    background-color: rgb(180, 230, 213);
+  }
+  
+  .list__container {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .list__element {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list__element a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .main__container {
+    flex: 1;
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .seccion__primera {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .seccion__segundo {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .seccion__tercero {
+    display: flex;
+  }
+  
+  .article__primero {
+    width: 70%;
+    background-color: #f6d6ad;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .article__segundo {
+    width: 30%;
+    background-color: #f9e0d6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .article__tercero {
+    width: 100%;
+    background-color: #b6ada6;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .article__cuarto {
+    width: 30%;
+    background-color: #f9e0d6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .article__quinto {
+    width: 70%;
+    background-color: #f6d6ad;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .footer__container {
+    background-color: #afc5bb;
+    padding: 10px;
+  }
+  
+  .list__footer-container {
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .footer__element a {
+    text-decoration: none;
+    font-style: normal;
+    color: #333;
+  }
+  

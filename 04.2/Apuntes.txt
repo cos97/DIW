@@ -1,0 +1,1 @@
+Aqui se copia la carpeta de "bootstrap-5.3.2-examples" que queramos utilizar, en este caso es la carpeta "carousel", se modifica el <link rel="stylesheet" href="css/bootstrap.min.css"> y se copia la carpeta "bootstrap-5.3.2-dist" en el directorio "carousel" y se mantiene solo el archivo que se utilice, en este caso "bootstrap.min.css"
